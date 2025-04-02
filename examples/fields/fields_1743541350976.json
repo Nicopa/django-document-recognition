@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Seller website",
+    "description": "The website from the seller",
+    "type": "String"
+  },
+  {
+    "name": "Date",
+    "description": "The invoice date",
+    "type": "String"
+  },
+  {
+    "name": "Products or Services",
+    "description": "The list of products or services from the invoice",
+    "type": "Array",
+    "arrayType": "String"
+  },
+  {
+    "name": "Values",
+    "description": "",
+    "type": "Object",
+    "fields": [
+      {
+        "name": "Subtotal",
+        "type": "Number"
+      },
+      {
+        "name": "Taxable",
+        "type": "Number"
+      },
+      {
+        "name": "Tax rate",
+        "type": "String"
+      },
+      {
+        "name": "Tax due",
+        "type": "Number"
+      },
+      {
+        "name": "Total",
+        "type": "Number"
+      }
+    ]
+  },
+  {
+    "name": "60 days",
+    "description": "If the payment can be done in 60 days",
+    "type": "Enum",
+    "enumOptions": [
+      "Yes",
+      "No"
+    ]
+  }
+]
