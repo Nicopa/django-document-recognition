@@ -1,9 +1,7 @@
-
-
-# Document Recognition App
+# Django Document Recognition App
 
 ## Overview
-This application is designed to recognize and process documents efficiently. It supports some image types and provides features for exporting and importing the field set if you need to reload the page.
+This AI-powered solution is designed to streamline the recognition and processing of documents. It supports various image formats, including PNG and JPEG, and offers robust features such as customizable field management and the ability to export and import field configurations. The application processes documents and outputs the extracted data in a structured JSON format, ensuring seamless workflows and easy integration with other systems, even when reloading or transferring data between sessions.
 
 ## Main Tech Stacks
 
@@ -11,6 +9,7 @@ This application is designed to recognize and process documents efficiently. It 
 - OpenAI Python library;
 - Django;
 - Tailwind CSS;
+- Vanilla Javascript
 
 ## Features
 - **Document Recognition**: Automatically extracts and processes data from supported document types.
